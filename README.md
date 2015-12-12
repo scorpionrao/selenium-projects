@@ -1,9 +1,11 @@
 # selenium-projects
 
-## Example of reading files for test data
+## Project 1 - Example of reading files for test data
 
-### Property File Reader
+### Package - *.java.com.files
 
-### Excel File Reader
+### Example 1.1 - Property File Reader
 
-### Common File Reader
+### Example 1.2 - Excel File Reader
+
+### Example 1.3 - Common File Reader
