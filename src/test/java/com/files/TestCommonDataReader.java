@@ -9,9 +9,12 @@ import main.java.com.files.FileDataReaderWithInterface;
  * Created by rgonugunta on 12/12/15.
  */
 public class TestCommonDataReader {
+
+    static DataReaderInterface commonReader = new FileDataReaderWithInterface();
+    //static DataReaderInterface commonReader = new ExcelDataReaderWithInterface();
+
     public static void main(String[] args) {
         FirefoxDriver driver = new FirefoxDriver();
-        DataReaderInterface commonReader = new FileDataReaderWithInterface();
         try {
             String url = commonReader.getProp("gap.url");
             driver.get(url);
